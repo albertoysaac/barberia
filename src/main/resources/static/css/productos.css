@@ -1,0 +1,25 @@
+#destacados{
+    margin-top: 100px;
+}
+.card{
+    background-color: cornsilk;
+}
+
+.carousel-indicators button{
+background-color: darkgrey;
+}
+
+.carousel-indicators .active{
+background-color: black;
+}
+
+.card{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-body{
+    flex-shrink: initial;
+}
